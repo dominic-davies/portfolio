@@ -13,3 +13,14 @@ bright pink: #EF806C;
   width: 100%;
   z-index: 9;
 }
+
+.slider-main-text-area {
+  color: #fff;
+  height: 250px;
+  margin-top: -125px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  z-index: 10;
+}
