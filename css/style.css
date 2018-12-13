@@ -6,6 +6,10 @@ red: #D94D3C;
 bright pink: #EF806C;
 */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .slider-dark-overlay {
   background-color: rgba(0, 0, 0, 0.2);
   height: 100%;
@@ -23,4 +27,15 @@ bright pink: #EF806C;
   top: 50%;
   width: 100%;
   z-index: 10;
+}
+
+.slider-main-text-heading {
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 7px;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.slider-main-text-sub-heading {
+  font-size: 30px;
 }
