@@ -27,6 +27,13 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
       rel="stylesheet"
     />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -77,14 +84,29 @@
               well versed in MVC pattern.
             </p>
             <p>
-              My IT support work would always take precedence but I always had
-              to scratch that coding itch.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+              magnam exercitationem veniam tenetur voluptatem quam doloribus
+              dolore nesciunt? Atque corrupti consectetur quis temporibus eaque
+              tenetur ad nemo in, cumque sint totam at vero obcaecati dolorum
+              ullam delectus cupiditate esse! Iste.
             </p>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- FOOTER SECTION -->
+    <footer class="text-white bg-dark footer-section">
+      <div class="row">
+        <div class="col text-center">
+          <div class="social-icons mb-3">
+            <i class="fab fa-twitter"></i> <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i> <i class="fas fa-envelope"></i>
+          </div>
+          <p>© Copyright Dominic Davies <span id="year"></span></p>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- Superslides plugin -->
     <script src="js/jquery.superslides.min.js"></script>
@@ -100,5 +122,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/script.js"></script>
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+    </script>
   </body>
 </html>
