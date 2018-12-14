@@ -43,3 +43,9 @@ body {
 .slider-main-text-sub-heading {
   font-size: 30px;
 }
+
+/* ABOUT SECTION */
+
+.about-section-image {
+  max-width: 100%;
+}
