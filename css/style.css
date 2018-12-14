@@ -10,6 +10,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.section {
+  padding: 100px 0;
+}
+
 .slider-dark-overlay {
   background-color: rgba(0, 0, 0, 0.2);
   height: 100%;
