@@ -57,6 +57,12 @@ body {
 }
 
 .social-icons i {
+  color: #fff;
   font-size: 1.2rem;
   margin-left: 18px;
+}
+
+.social-icons i:hover {
+  color: #f3e061;
+  font-size: 1.3rem;
 }
