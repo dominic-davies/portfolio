@@ -52,6 +52,11 @@ body {
 
 /* PORTFOLIO GRID */
 
+.portfolio-section-grid-filter-labels {
+  text-align: center;
+  width: 100%;
+}
+
 .portfolio-section-grid-filter-labels a {
   border: 1px solid #bdc3c7;
   color: #bdc3c7;
@@ -70,6 +75,11 @@ body {
   color: #41423f;
 }
 
+.portfolio-section-grid-heading {
+  padding-bottom: 48px;
+  text-align: center;
+  width: 100%;
+}
 /* FOOTER SECTION */
 
 .footer-section {
