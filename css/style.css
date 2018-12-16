@@ -97,6 +97,9 @@ body {
   font-size: 1.3rem;
 }
 
+.portfolio-section-grid-items {
+  padding: 0;
+}
 .portfolio-section-grid-items li {
   display: inline-block;
   padding: 5px;
