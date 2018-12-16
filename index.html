@@ -34,6 +34,11 @@
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
       crossorigin="anonymous"
     />
+    <!-- Fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -124,8 +129,10 @@
                       href="img/logo-javascript.png"
                       title="Open Project Image"
                       class="open-project-image"
+                      data-fancybox
+                      data-caption="text caption message"
                     >
-                      <i class="fa fa-search"></i>
+                      > <i class="fa fa-search"></i>
                     </a>
                     <a href="" target="_blank" class="open-project-link"
                       ><i class="fa fa-link"></i>
@@ -177,6 +184,8 @@
     ></script>
     <!-- Isotope: Filter & sort magical layouts -->
     <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
     <script>
       // Get the current year for the copyright

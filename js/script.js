@@ -4,4 +4,5 @@ $(document).ready(function() {
     play: 5000,
     pagination: false
   });
+  $('[data-fancybox').fancybox();
 });
