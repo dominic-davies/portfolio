@@ -14,6 +14,15 @@ body {
   padding: 100px 0;
 }
 
+.slides-container {
+  height: 100vh;
+  background-image: url(../img/showcase-image5.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .slider-dark-overlay {
   background-color: rgba(0, 0, 0, 0.2);
   height: 100%;
