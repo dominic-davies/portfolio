@@ -1,11 +1,3 @@
-/* colors for portfolio
-light brown : #CEB8A1;
-green: #3F8881;
-racing green: #123644;
-red: #D94D3C;
-bright pink: #EF806C;
-*/
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -23,13 +15,13 @@ body {
   background-size: cover;
 }
 
-.slider-dark-overlay {
+/* .slider-dark-overlay {
   background-color: rgba(0, 0, 0, 0.2);
   height: 100%;
   position: absolute;
   width: 100%;
   z-index: 9;
-}
+} */
 
 .slider-main-text-area {
   color: #fff;
@@ -44,13 +36,14 @@ body {
 
 .slider-main-text-heading {
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 200;
   letter-spacing: 7px;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .slider-main-text-sub-heading {
   font-size: 30px;
+  font-weight: 100;
 }
 
 /* ABOUT SECTION */
@@ -88,22 +81,6 @@ body {
   padding-bottom: 48px;
   text-align: center;
   width: 100%;
-}
-/* FOOTER SECTION */
-
-.footer-section {
-  padding: 50px 0;
-}
-
-.social-icons i {
-  color: #fff;
-  font-size: 1.2rem;
-  margin-left: 18px;
-}
-
-.social-icons i:hover {
-  color: #f3e061;
-  font-size: 1.3rem;
 }
 
 .portfolio-section-grid-items {
@@ -184,4 +161,21 @@ body {
   -o-transform: scale(1.05, 1.05);
   -ms-transform: scale(1.05, 1.05);
   transform: scale(1.05, 1.05);
+}
+
+/* FOOTER SECTION */
+
+.footer-section {
+  padding: 50px 0;
+}
+
+.social-icons i {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 18px;
+}
+
+.social-icons i:hover {
+  color: #f3e061;
+  font-size: 1.3rem;
 }
