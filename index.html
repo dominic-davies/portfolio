@@ -43,25 +43,26 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- <div id="slides"> -->
-    <!-- <div class="slider-dark-overlay"> -->
-    <div class="slides-container">
-      <!--
-        <img src="img/showcase-image5.jpeg" alt="computer code" />
-        <img src="img/showcase-image3.jpeg" alt="computer code" />
-      -->
+    <div id="slides">
+      <div class="slider-dark-overlay"></div>
+      <div class="slides-container">
+        <img src="img/showcase-image-3.jpeg" alt="macbook" />
+        <img src="img/showcase-image-1.jpeg" alt="laptop in dark" />
+      </div>
+      <!-- /. slides-container -->
 
       <div class="slider-main-text-area">
         <div class="slider-main-text">
           <h1 class="slider-main-text-heading">DOMINIC DAVIES</h1>
-          <h2 class="slider-main-text-sub-heading">
-            Responsive, Mobile-First Web Development with Bootstrap
-          </h2>
+          <h2 class="slider-main-text-sub-heading typed"></h2>
         </div>
       </div>
+
+      <!--Slides navigation-->
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a> <a href="#" class="prev"></a>
+      </nav>
     </div>
-    <!-- </div> -->
-    <!-- </div> -->
     <!-- ABOUT SECTION -->
     <div id="about-section" class="section">
       <div class="container">
@@ -251,6 +252,8 @@
     <!-- Optional JavaScript -->
     <!-- Superslides plugin -->
     <script src="js/jquery.superslides.min.js"></script>
+    <!--Typed js-->
+    <script src="js/typed.min.js"></script>
     <!-- jQuery first(now in head), then Popper.js, then Bootstrap JS -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
