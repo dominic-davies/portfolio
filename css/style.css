@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .section {
@@ -65,9 +65,35 @@ body {
   max-width: 100%;
 }
 
+/* CONTACT SECTION */
+
+.contact-section {
+  background-color: #54cbd2;
+  color: #fff;
+}
+
+.contact-button {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.contact-button:hover {
+  text-decoration: none;
+  color: #222;
+  background-color: #fff;
+}
+
+.contact-button:active {
+  background-color: rgb(243, 237, 237);
+}
+
 /* PORTFOLIO GRID */
 
-.portfolio-section-grid-filter-labels {
+/* .portfolio-section-grid-filter-labels {
   text-align: center;
   width: 100%;
 }
@@ -85,10 +111,10 @@ body {
 }
 
 .portfolio-section-grid-filter-labels .current {
-  background-color: #f3e061;
-  border-color: #f3e061;
+  background-color: #54cbd2;
+  border-color: #54cbd2;
   color: #41423f;
-}
+} */
 
 .portfolio-section-grid-heading {
   padding-bottom: 48px;
@@ -135,13 +161,13 @@ body {
 }
 
 .portfolio-section-grid-item-icons i {
-  color: #000;
+  color: #fff;
   font-size: 20px;
   margin-top: 9px;
 }
 
 .portfolio-section-grid-items a {
-  background-color: #f3e061;
+  background-color: #54cbd2;
   display: inline-block;
   height: 40px;
   position: relative;
@@ -189,6 +215,6 @@ body {
 }
 
 .social-icons i:hover {
-  color: #f3e061;
+  color: #54cbd2;
   font-size: 1.3rem;
 }

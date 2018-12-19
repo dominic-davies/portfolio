@@ -19,7 +19,11 @@ $(document).ready(function() {
 
   //typed code
   var typed = new Typed('.typed', {
-    strings: ['Web Developer', '#100 days of code'],
+    strings: [
+      'Web Developer',
+      'Responsive Design',
+      'Modern Javascript-Based Architecture'
+    ],
     typeSpeed: 90,
     loop: true,
     startDelay: 1200,
