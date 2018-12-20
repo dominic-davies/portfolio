@@ -59,6 +59,45 @@ body {
   background-image: url(../img/icons/next.png);
 }
 
+/* NAVIGATION SECTION */
+
+#navigation {
+  background-color: #481c87;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar i {
+  color: #fff;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+
 /* ABOUT SECTION */
 
 .about-section-image {
@@ -68,7 +107,7 @@ body {
 /* CONTACT SECTION */
 
 .contact-section {
-  background-color: #54cbd2;
+  background-color: #481c87;
   color: #fff;
 }
 
@@ -111,8 +150,8 @@ body {
 }
 
 .portfolio-section-grid-filter-labels .current {
-  background-color: #54cbd2;
-  border-color: #54cbd2;
+  background-color: #481C87;
+  border-color: #481C87;
   color: #41423f;
 } */
 
@@ -167,7 +206,7 @@ body {
 }
 
 .portfolio-section-grid-items a {
-  background-color: #54cbd2;
+  background-color: #481c87;
   display: inline-block;
   height: 40px;
   position: relative;
@@ -215,6 +254,6 @@ body {
 }
 
 .social-icons i:hover {
-  color: #54cbd2;
+  color: #481c87;
   font-size: 1.3rem;
 }
